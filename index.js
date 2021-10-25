@@ -6,7 +6,7 @@
 //    dump(req.responseText);
 // }
 
-const url = 'http://www.mydomain.com'
+const url = 'https://news.ycombinator.com/'
 
 axios.get(url)
     .then(response => {
